@@ -2,20 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-04T13:07:37 IST" name="Default suite" finished-at="2025-02-04T13:08:03 IST" duration-ms="25679">
+  <suite started-at="2025-02-04T13:28:02Z" name="Suite" finished-at="2025-02-04T13:28:34Z" duration-ms="31723">
     <groups>
     </groups>
-    <test started-at="2025-02-04T13:07:37 IST" name="Default test" finished-at="2025-02-04T13:08:03 IST" duration-ms="25679">
-      <class name="Test_Scenarios.TestMethods_Amazon">
-        <test-method is-config="true" signature="beforetest()[pri:0, instance:Test_Scenarios.TestMethods_Amazon@27406a17]" started-at="2025-02-04T13:07:37 IST" name="beforetest" finished-at="2025-02-04T13:07:41 IST" duration-ms="4007" status="PASS">
+    <test started-at="2025-02-04T13:28:02Z" name="Test" finished-at="2025-02-04T13:28:34Z" duration-ms="31723">
+      <class name="testScenario.AmazonHomepage.AmazonHomepage_Test">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:testScenario.AmazonHomepage.AmazonHomepage_Test@73cd37c0]" started-at="2025-02-04T13:28:03Z" name="initializeDriver" finished-at="2025-02-04T13:28:08Z" duration-ms="5483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method signature="LoginOperation()[pri:0, instance:Test_Scenarios.TestMethods_Amazon@27406a17]" started-at="2025-02-04T13:07:41 IST" name="LoginOperation" finished-at="2025-02-04T13:08:03 IST" duration-ms="21581" status="PASS">
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="TC01_HomePageTest()[pri:0, instance:testScenario.AmazonHomepage.AmazonHomepage_Test@73cd37c0]" started-at="2025-02-04T13:28:08Z" name="TC01_HomePageTest" finished-at="2025-02-04T13:28:34Z" duration-ms="25739" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginOperation -->
-      </class> <!-- Test_Scenarios.TestMethods_Amazon -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- TC01_HomePageTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testScenario.AmazonHomepage.AmazonHomepage_Test@73cd37c0]" started-at="2025-02-04T13:28:34Z" name="closeDriver" finished-at="2025-02-04T13:28:34Z" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testScenario.AmazonHomepage.AmazonHomepage_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
